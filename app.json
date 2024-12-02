@@ -1,6 +1,7 @@
 {
     "name": "Bot",
     "description": "Bot",
+    "stack": "heroku-22",
     "keywords": [
       "telegram"
     ],
