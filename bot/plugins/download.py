@@ -262,10 +262,10 @@ async def is_admin(bot: Client, message: types.Message):
     if chat_id not in admins:
         # <button> [Owner](t.me/Thebhumihar)
         markup = types.InlineKeyboardMarkup(
-            [[types.InlineKeyboardButton("Owner", url="https://t.me/Thebhumihar")]]
+            [[types.InlineKeyboardButton("Owner", url="@Thebhumihar")]]
         )
         await message.reply_text(
-            "You are not allowed to use this bot. If you want to use me first talk to Owner to use me",
+            "You are not allowed to use this bot. If you want to use me first talk to Owner (@Thebhumihar) to use me",
             reply_markup=markup,
         )
         cleanup(None, None, chat_id)
