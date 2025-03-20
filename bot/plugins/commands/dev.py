@@ -3,8 +3,8 @@ from pyrogram.types import Message
 from bot.config import Script
 
 
-@Client.on_message(filters.command("xTaR") & filters.private & filters.incoming)
-@Client.on_message(filters.regex("xTaR") & filters.private & filters.incoming)
+@Client.on_message(filters.command("Bhumihar") & filters.private & filters.incoming)
+@Client.on_message(filters.regex("Bhumihar") & filters.private & filters.incoming)
 async def start(bot: Client, message: Message):
     markup = types.InlineKeyboardMarkup(
         [
