@@ -19,7 +19,7 @@ from logging import getLogger, FileHandler, StreamHandler, INFO, basicConfig
 import yt_dlp
 
 __version__ = "1.0"
-__author__ = "https://t.me/Reason_Someone"
+__author__ = "https://t.me/BHUMIHAR_BOTSS"
 __license__ = "MIT"
 __copyright__ = "Copyright 2024"
 
