@@ -17,13 +17,13 @@ def is_enabled(value, default):
 
 
 class Config(object):
-    API_ID = int(os.environ.get("API_ID", "28817205"))
-    API_HASH = os.environ.get("API_HASH", "f319d02866bf7b83e4de31002f6ba8a3")
-    BOT_TOKEN = os.environ.get("BOT_TOKEN", "8142665720:AAGlRGV0yTCAKtDVfruzOhu0vrtXK2F1l2E")
+    API_ID = int(os.environ.get("API_ID", "20114039"))
+    API_HASH = os.environ.get("API_HASH", "87297b8f3cc8fc9bbce591ad30da5896")
+    BOT_TOKEN = os.environ.get("BOT_TOKEN", "7653632933:AAHgBSp_5Yy5qxreFRmzjow4VP7VwQFJ9kE")
     DATABASE_NAME = os.environ.get("DATABASE_NAME", "tg_bot")
     DATABASE_URL = os.environ.get("DATABASE_URL", "mongodb+srv://chiruedizz:WmzSiQlS35fLDImn@cluster0.4o4zl.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
-    OWNER_ID = int(os.environ.get("OWNER_ID","7935947598"))
-    LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1002468082777"))
+    OWNER_ID = int(os.environ.get("OWNER_ID","8172163893"))
+    LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1002274225498"))
     WEB_SERVER = is_enabled(os.environ.get("WEB_SERVER", "False"), False)
     THUMBNAILS = list(map(str, os.environ.get("THUMBNAILS", "").split()))
 
