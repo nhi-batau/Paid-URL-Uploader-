@@ -10,10 +10,10 @@ async def start(bot: Client, message: Message):
         [
             [
                 types.InlineKeyboardButton(
-                    "Telegram", url="https://telegram.me/The_real_xTaR"
+                    "Telegram", url="https://telegram.me/Thebhumihar"
                 ),
                 types.InlineKeyboardButton(
-                    "GitHub", url="https://github.com/The_real_xTaR"
+                    "GitHub", url="https://github.com/Bhumihar4756"
                 ),
             ],
             [
