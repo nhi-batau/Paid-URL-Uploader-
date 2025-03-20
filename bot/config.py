@@ -36,7 +36,7 @@ class Script(object):
     START_MESSAGE = (
         " {mention}\n\nSend any link or set of links in a txt file to download them."
     )
-    DEV_MESSAGE = """👋 Hey there, I'm 𝄟⃝🐬🇵ʀɪʏᴀ𝄟⃝🐬 – your go-to Telegram bot developer!
+    DEV_MESSAGE = """👋 Hey there, I'm 𝄟⃝🐬BHUMIHAR🐬 – your go-to Telegram bot developer!
 
 🤖 Love having bots that do the heavy lifting for you? That's my jam! I'm all about crafting super cool and custom Telegram bots that make your life a breeze.
 
@@ -62,7 +62,7 @@ Let's bot up and have some fun! 🤘"""
 ║┣⪼ Speed:- {speed}/s
 ║┣ 
 ║┣⪼ ETA:- {eta} 
-║╰━➣
+║╰━➣ @Thebhumihar
 ╚════════════════❍**"""
     NEW_USER_MESSAGE = """#NewUser
 
@@ -75,7 +75,7 @@ Let's bot up and have some fun! 🤘"""
 
 Original Index: {orginal_start_index}/{orginal_end_index}
 
-[𝄟⃝🐬🇵ʀɪʏᴀ𝄟⃝🐬](https://t.me/Reason_Someone)"""
+[𝄟⃝🐬BHUMIHAR🐬](https://t.me/BHUMIHAR_BOTSS)"""
 
     DEFAULT_CAPTION = """[📁] File_ID : {file_index}
 
@@ -85,7 +85,7 @@ Original Index: {orginal_start_index}/{orginal_end_index}
 
 📚 Bᴀᴛᴄʜ Nᴀᴍᴇ : {batch_name}
 
-Dᴏᴡɴʟᴏᴀᴅᴇᴅ Bʏ : [𝄟⃝🐬🇵ʀɪʏᴀ𝄟⃝🐬](https://t.me/ReaSon_SomeOne_Bot)"""
+Dᴏᴡɴʟᴏᴀᴅᴇᴅ Bʏ : [𝄟⃝🐬BHUMIHAR🐬](https://t.me/BHUMIHAR_BOTSS)"""
 
 
     CAPTION_CB = """**Set Caption
